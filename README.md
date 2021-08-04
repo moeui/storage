@@ -1,10 +1,10 @@
 ### Install
 
-    yarn add @moeui/number-format  
+    yarn add @moeui/storage
 
     // or 
 
-    npm i @moeui/number-format
+    npm i @moeui/storage
 ### Use
 
     import storage from '@moeui/storage'
