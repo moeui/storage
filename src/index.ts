@@ -70,10 +70,10 @@ class CustomStorage {
           l = null;
         }
       }
-      return l.value
+      return l && l.value
     }
 
-    return undefined
+    return null
   }
 }
 

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,8 +31,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "storage",
-  "author": "nnn",
+  "name": "@moeui/storage",
+  "author": "zkeyword",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moeui/storage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moeui/storage/issues"
+  },
+  "homepage": "https://github.com/moeui/storage#readme",
   "module": "dist/storage.esm.js",
   "size-limit": [
     {
