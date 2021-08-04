@@ -48,7 +48,7 @@ class CustomStorage {
   set(key: string, value: any, expire?: number): void {
     const data = {
       value,
-      expire: Date.now() + (expire || 0) * 1000
+      expire: Date.now() + (Number(expire)  * 1000)
     };
 
     if (typeof expire === 'undefined') {
